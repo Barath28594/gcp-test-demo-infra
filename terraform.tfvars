@@ -1,0 +1,6 @@
+gcp_project       = "devops-499515"
+region            = "asia-south1"
+application_name  = "gcp-test-demo"
+application_owner = "barath"
+environment       = "dev"
+container_image   = "us-docker.pkg.dev/cloudrun/container/hello"
