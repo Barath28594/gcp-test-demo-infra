@@ -1,0 +1,6 @@
+gcp_project       = "YOUR_GCP_PROJECT_ID"
+region            = "asia-south1"
+application_name  = "gcp-test-demo"
+application_owner = "APPLICATION_OWNER"
+environment       = "dev"
+container_image   = "us-docker.pkg.dev/cloudrun/container/hello"
