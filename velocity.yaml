@@ -1,0 +1,21 @@
+application:
+  name: gcp-test-demo
+  owner: barath
+  team: gisocc
+
+cloud:
+  provider: GCP
+  project: devops-499515
+  region: asia-south1
+
+service:
+  type: Cloud Run
+
+environment:
+  name: dev
+
+terraform:
+  state_backend: local
+  state_prefix: applications/gcp-test-demo
+
+managed_by: Velocity
